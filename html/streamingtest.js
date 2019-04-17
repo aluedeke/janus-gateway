@@ -75,7 +75,7 @@ $(document).ready(function() {
 			janus = new Janus(
 				{
 					server: server,
-					iceServers = [{url: 'turn:eu-turn2.xirsys.com:80?transport=udp',
+					iceServers: [{url: 'turn:eu-turn2.xirsys.com:80?transport=udp',
 						credential: 'd498b818-6111-11e9-baec-4a049da423ff',
 						username: 'kuZuz3rdPEaowMyDkb2DWOTRx4PsMk5OlieuC9lncf_t4JcU96vRb6h2iPQiOMfRAAAAAFy3JTJhbHVlZGVrZQ=='
 					}],
